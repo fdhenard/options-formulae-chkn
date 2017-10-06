@@ -1,0 +1,7 @@
+((synopsis "some investment options formulas")
+ (author "Frank Henard")
+ (category math)
+ (license "MIT")
+ (depends r7rs)
+ (test-depends)
+ (foreign-depends))

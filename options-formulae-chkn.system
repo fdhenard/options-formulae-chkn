@@ -1,0 +1,4 @@
+
+(define-system so-question-chicken-scheme
+  (scheme-file "other-module")
+  (scheme-file "options-formulae-chkn" depends: '("other-module")))
