@@ -15,3 +15,8 @@
 - `#;3> (load-system options-formulae-chkn)`
 - `#;4> (import (prefix some-main-module smm:))`
 - `#;5> (smm:do-something)`
+
+### To run test script
+
+- `$ csi`
+- `#;1> ,l test-script.scm`
