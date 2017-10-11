@@ -1,7 +1,9 @@
+(compile -d0 -O2 -J -s other-module.scm)
+(compile -d0 -O2 -s other-module.import.scm)
 (compile -d0 -O2 -J -s options-formulae-chkn.scm)
 (compile -d0 -O2 -s options-formulae-chkn.import.scm)
 
 (install-extension
  'options-formulae-chkn
- '("options-formulae-chkn.so" "options-formulae-chkn.import.so")
+ '("options-formulae-chkn.so" "options-formulae-chkn.import.so" "other-module.so" "other-module.import.so")
  '((version "0.0.1")))

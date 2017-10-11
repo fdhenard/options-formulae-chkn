@@ -1,0 +1,5 @@
+(use system)
+(load "options-formulae-chkn.system")
+(load-system options-formulae-chkn)
+(import (prefix options-formulae-chkn ofc:))
+(print "what what: " (ofc:test-it))
